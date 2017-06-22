@@ -1,0 +1,22 @@
+//
+//  coding_test.pch
+//  coding_test
+//
+//  Created by yangxutao on 2017/6/22.
+//  Copyright © 2017年 yangxutao. All rights reserved.
+//
+
+#ifndef coding_test_pch
+#define coding_test_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+
+
+
+
+
+
+
+#endif /* coding_test_pch */

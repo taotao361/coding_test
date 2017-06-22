@@ -1,4 +1,19 @@
 PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
   - APParallaxHeader (0.1.6)
   - BlocksKit (2.2.5):
     - BlocksKit/All (= 2.2.5)
@@ -74,6 +89,7 @@ PODS:
   - UMengSocial (4.2.3)
 
 DEPENDENCIES:
+  - AFNetworking
   - APParallaxHeader (= 0.1.6)
   - BlocksKit (= 2.2.5)
   - evernote-cloud-sdk-ios (= 2.0.2)
@@ -101,6 +117,7 @@ DEPENDENCIES:
   - UMengSocial (= 4.2.3)
 
 SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
   APParallaxHeader: 854bc48a2487ca12c702f8a236fec0d89cdac5c3
   BlocksKit: 7f422b971407001178d181a43b99014ea2591fe6
   evernote-cloud-sdk-ios: 7a6e5402b837ea79ef0179caff5ffe7b4f235615
@@ -131,6 +148,6 @@ SPEC CHECKSUMS:
   UMengAnalytics: 092c24aef47b6ac3c76ad51543f91156a8d7b645
   UMengSocial: 85882abe5b20aa38ad558ece71360e16b5d50909
 
-PODFILE CHECKSUM: ed9fc58e68f66a57e7b75195df17f3e31b85dd83
+PODFILE CHECKSUM: 7af30a2943ca280a86601b26f278c87afea063df
 
 COCOAPODS: 1.1.1

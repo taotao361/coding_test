@@ -7,7 +7,7 @@ target 'coding_test' do
 
   # Pods for coding_test
 
-
+pod 'AFNetworking'
 pod 'TTTAttributedLabel', '1.10.1'
 pod 'RegexKitLite-NoWarning', '1.1.0'
 pod 'hpple', '0.2.0'

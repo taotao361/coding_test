@@ -7,6 +7,9 @@
 //
 
 #import "AppDelegate.h"
+#import "YTRootTabbarController.h"
+
+
 
 @interface AppDelegate ()
 
@@ -16,9 +19,45 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.backgroundColor = [UIColor whiteColor];
+    
+    YTRootTabbarController *rootVC = [[YTRootTabbarController alloc] init];
+    self.window.rootViewController = rootVC;
+    
+    
+    [self setGlobalAppearance];
+    
+    
+    
+    
+    
+    
+    [self.window makeKeyAndVisible];
+    
+    
+    
     return YES;
 }
+
+
+//设置全局样式
+- (void)setGlobalAppearance {
+    [[UINavigationBar appearance] setTintColor:[UIColor greenColor]];
+    NSDictionary *attibuteDic = @{NSFontAttributeName : [UIFont systemFontOfSize:14],NSForegroundColorAttributeName : [UIColor greenColor]};
+    [[UINavigationBar appearance] setTitleTextAttributes:attibuteDic];
+    
+    
+//    [[UITabBar appearance] setBarTintColor:[UIColor greenColor]];
+    [[UISearchBar appearance] setTintColor:[UIColor greenColor]];
+    [[UITextField appearance] setTintColor:[UIColor greenColor]];
+    [[UITextView appearance] setTintColor:[UIColor greenColor]];
+}
+
+
+
+
 
 
 - (void)applicationWillResignActive:(UIApplication *)application {

@@ -11,8 +11,11 @@
 		BC7CC0121EFBB9BA00BADD29 /* LaunchImage-320-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC7CC00E1EFBB9BA00BADD29 /* LaunchImage-320-568h@2x.png */; };
 		BC7CC0131EFBB9BA00BADD29 /* LaunchImage-375-667h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC7CC00F1EFBB9BA00BADD29 /* LaunchImage-375-667h@2x.png */; };
 		BC7CC0141EFBB9BA00BADD29 /* LaunchImage-414-736h@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC7CC0101EFBB9BA00BADD29 /* LaunchImage-414-736h@3x.png */; };
-		BC96987C1EFBB0510062D5B6 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BC9698771EFBB0510062D5B6 /* Info.plist */; };
-		BC96987D1EFBB0510062D5B6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC9698791EFBB0510062D5B6 /* main.m */; };
+		BC7CC0191EFBCD5D00BADD29 /* YTClientAPIService.m in Sources */ = {isa = PBXBuildFile; fileRef = BC7CC0181EFBCD5D00BADD29 /* YTClientAPIService.m */; };
+		BC7CC01C1EFBD1A600BADD29 /* YTUserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BC7CC01B1EFBD1A600BADD29 /* YTUserModel.m */; };
+		BC7CC01E1EFBD49200BADD29 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC7CC01D1EFBD49200BADD29 /* main.m */; };
+		BC7CC0201EFBD49D00BADD29 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BC7CC01F1EFBD49D00BADD29 /* Info.plist */; };
+		BC7CC0231EFBD70F00BADD29 /* YTClientAPIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BC7CC0221EFBD70F00BADD29 /* YTClientAPIManager.m */; };
 		BC9698AC1EFBB1C10062D5B6 /* YTBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC96989D1EFBB1C10062D5B6 /* YTBaseViewController.m */; };
 		BC9698AD1EFBB1C10062D5B6 /* YTMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC96989F1EFBB1C10062D5B6 /* YTMessageViewController.m */; };
 		BC9698AE1EFBB1C10062D5B6 /* YTMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC9698A11EFBB1C10062D5B6 /* YTMineViewController.m */; };
@@ -33,8 +36,15 @@
 		BC7CC00E1EFBB9BA00BADD29 /* LaunchImage-320-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImage-320-568h@2x.png"; sourceTree = "<group>"; };
 		BC7CC00F1EFBB9BA00BADD29 /* LaunchImage-375-667h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImage-375-667h@2x.png"; sourceTree = "<group>"; };
 		BC7CC0101EFBB9BA00BADD29 /* LaunchImage-414-736h@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImage-414-736h@3x.png"; sourceTree = "<group>"; };
-		BC9698771EFBB0510062D5B6 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BC9698791EFBB0510062D5B6 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BC7CC0161EFBCC7A00BADD29 /* GlobalConst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GlobalConst.h; sourceTree = "<group>"; };
+		BC7CC0171EFBCD5D00BADD29 /* YTClientAPIService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTClientAPIService.h; sourceTree = "<group>"; };
+		BC7CC0181EFBCD5D00BADD29 /* YTClientAPIService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTClientAPIService.m; sourceTree = "<group>"; };
+		BC7CC01A1EFBD1A600BADD29 /* YTUserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTUserModel.h; sourceTree = "<group>"; };
+		BC7CC01B1EFBD1A600BADD29 /* YTUserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTUserModel.m; sourceTree = "<group>"; };
+		BC7CC01D1EFBD49200BADD29 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BC7CC01F1EFBD49D00BADD29 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC7CC0211EFBD70F00BADD29 /* YTClientAPIManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTClientAPIManager.h; sourceTree = "<group>"; };
+		BC7CC0221EFBD70F00BADD29 /* YTClientAPIManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTClientAPIManager.m; sourceTree = "<group>"; };
 		BC96989C1EFBB1C10062D5B6 /* YTBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTBaseViewController.h; sourceTree = "<group>"; };
 		BC96989D1EFBB1C10062D5B6 /* YTBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTBaseViewController.m; sourceTree = "<group>"; };
 		BC96989E1EFBB1C10062D5B6 /* YTMessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTMessageViewController.h; sourceTree = "<group>"; };
@@ -71,10 +81,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BC7CC0151EFBCC2000BADD29 /* service */ = {
+			isa = PBXGroup;
+			children = (
+				BC7CC0171EFBCD5D00BADD29 /* YTClientAPIService.h */,
+				BC7CC0181EFBCD5D00BADD29 /* YTClientAPIService.m */,
+				BC7CC0211EFBD70F00BADD29 /* YTClientAPIManager.h */,
+				BC7CC0221EFBD70F00BADD29 /* YTClientAPIManager.m */,
+			);
+			path = service;
+			sourceTree = "<group>";
+		};
 		BC9698761EFBB0510062D5B6 /* config */ = {
 			isa = PBXGroup;
 			children = (
-				BC9698771EFBB0510062D5B6 /* Info.plist */,
+				BC7CC01F1EFBD49D00BADD29 /* Info.plist */,
 			);
 			path = config;
 			sourceTree = "<group>";
@@ -82,7 +103,7 @@
 		BC9698781EFBB0510062D5B6 /* other */ = {
 			isa = PBXGroup;
 			children = (
-				BC9698791EFBB0510062D5B6 /* main.m */,
+				BC7CC01D1EFBD49200BADD29 /* main.m */,
 			);
 			path = other;
 			sourceTree = "<group>";
@@ -90,6 +111,7 @@
 		BC96987A1EFBB0510062D5B6 /* src */ = {
 			isa = PBXGroup;
 			children = (
+				BC7CC0151EFBCC2000BADD29 /* service */,
 				BC96987F1EFBB09D0062D5B6 /* controller */,
 				BC96987E1EFBB09D0062D5B6 /* const */,
 				BC9698801EFBB09D0062D5B6 /* model */,
@@ -108,6 +130,7 @@
 		BC96987E1EFBB09D0062D5B6 /* const */ = {
 			isa = PBXGroup;
 			children = (
+				BC7CC0161EFBCC7A00BADD29 /* GlobalConst.h */,
 			);
 			path = const;
 			sourceTree = "<group>";
@@ -123,6 +146,8 @@
 		BC9698801EFBB09D0062D5B6 /* model */ = {
 			isa = PBXGroup;
 			children = (
+				BC7CC01A1EFBD1A600BADD29 /* YTUserModel.h */,
+				BC7CC01B1EFBD1A600BADD29 /* YTUserModel.m */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -276,9 +301,9 @@
 			files = (
 				BC7CC0131EFBB9BA00BADD29 /* LaunchImage-375-667h@2x.png in Resources */,
 				BC7CC0121EFBB9BA00BADD29 /* LaunchImage-320-568h@2x.png in Resources */,
+				BC7CC0201EFBD49D00BADD29 /* Info.plist in Resources */,
 				BC7CC0141EFBB9BA00BADD29 /* LaunchImage-414-736h@3x.png in Resources */,
 				BC7CC0111EFBB9BA00BADD29 /* LaunchImage-320-480@2x.png in Resources */,
-				BC96987C1EFBB0510062D5B6 /* Info.plist in Resources */,
 				BCF3A3461EFBA45100A431E2 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -338,15 +363,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC96987D1EFBB0510062D5B6 /* main.m in Sources */,
 				BC9698AE1EFBB1C10062D5B6 /* YTMineViewController.m in Sources */,
 				BC9698AD1EFBB1C10062D5B6 /* YTMessageViewController.m in Sources */,
 				BC9698AF1EFBB1C10062D5B6 /* YTProjectViewController.m in Sources */,
+				BC7CC0231EFBD70F00BADD29 /* YTClientAPIManager.m in Sources */,
 				BC9698B11EFBB1C10062D5B6 /* YTRootTabbarController.m in Sources */,
 				BCF3A33E1EFBA45100A431E2 /* AppDelegate.m in Sources */,
 				BC9698AC1EFBB1C10062D5B6 /* YTBaseViewController.m in Sources */,
 				BC9698B31EFBB1C10062D5B6 /* YTTweetViewController.m in Sources */,
 				BC9698B21EFBB1C10062D5B6 /* YTTaskViewController.m in Sources */,
+				BC7CC01C1EFBD1A600BADD29 /* YTUserModel.m in Sources */,
+				BC7CC0191EFBCD5D00BADD29 /* YTClientAPIService.m in Sources */,
+				BC7CC01E1EFBD49200BADD29 /* main.m in Sources */,
 				BC9698B01EFBB1C10062D5B6 /* YTRootNavController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

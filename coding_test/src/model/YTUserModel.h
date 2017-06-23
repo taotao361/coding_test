@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface YTUserModel : NSObject
+@interface YTUserModel : YTBaseModel
 
 ///标签
 @property (nonatomic, copy) NSString *tags_str;

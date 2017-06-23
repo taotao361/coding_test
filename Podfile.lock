@@ -39,8 +39,10 @@ PODS:
   - MarqueeLabel (2.5.0)
   - Masonry (0.5.3)
   - MBProgressHUD (0.9)
+  - MJExtension (3.0.13)
   - MMMarkdown (0.3)
   - NYXImagesKit (2.3)
+  - ODRefreshControl (1.2)
   - pop (1.0.9)
   - POP+MCAnimate (2.0.1):
     - pop (~> 1.0)
@@ -80,6 +82,9 @@ PODS:
     - RBBAnimation (~> 0.3)
     - SDCAutoLayout (~> 2.0)
   - SDCAutoLayout (2.0.3)
+  - SDWebImage (4.0.0):
+    - SDWebImage/Core (= 4.0.0)
+  - SDWebImage/Core (4.0.0)
   - SSKeychain (1.2.3)
   - TMCache (2.1.0)
   - TPKeyboardAvoiding (1.2.4)
@@ -100,14 +105,17 @@ DEPENDENCIES:
   - MarqueeLabel (= 2.5.0)
   - Masonry (= 0.5.3)
   - MBProgressHUD (= 0.9)
+  - MJExtension
   - MMMarkdown (= 0.3)
   - NYXImagesKit (= 2.3)
+  - ODRefreshControl
   - POP+MCAnimate (= 2.0.1)
   - PPiAwesomeButton (= 1.5.2)
   - ReactiveCocoa (= 2.3.1)
   - RegexKitLite-NoWarning (= 1.1.0)
   - SDAutoLayout (= 2.1.0)
   - SDCAlertView (= 2.5.2)
+  - SDWebImage
   - SSKeychain (= 1.2.3)
   - TMCache (= 2.1.0)
   - TPKeyboardAvoiding (= 1.2.4)
@@ -129,8 +137,10 @@ SPEC CHECKSUMS:
   MarqueeLabel: 6b8ff6915c0536c5099ac30992b7d72f9807df20
   Masonry: 9f515466afe48632562342a40a1c224071a1a022
   MBProgressHUD: d8e7ea388dc1549a42e0d219067cf5f2c898fb66
+  MJExtension: 5932755f451458eefa24239358817f8d291240c7
   MMMarkdown: 13af1af50e5f476f1097797f43ea2bd76c83067a
   NYXImagesKit: 8163e3335a40eaa173ca5bbbf81fafb57d3947eb
+  ODRefreshControl: 907e6149d72dde488d5917ccfabee5bd8d711a20
   pop: f667631a5108a2e60d9e8797c9b32ddaf2080bce
   POP+MCAnimate: a99e209148c602512de487f1160a44bf78572024
   PPiAwesomeButton: 16f7279582fd36f65186b24b83ef876217363eb5
@@ -140,6 +150,7 @@ SPEC CHECKSUMS:
   SDAutoLayout: 8e701d7e6a3ec4fb5571800378e8bb6b6645522d
   SDCAlertView: f9706c18f456ea87909f8f199704cd28e582ff27
   SDCAutoLayout: e6885bb39ab8e2ec2ff84d158f38035f025f7420
+  SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
   SSKeychain: 3f42991739c6c60a9cf1bbd4dff6c0d3694bcf3d
   TMCache: 95ebcc9b3c7e90fb5fd8fc3036cba3aa781c9bed
   TPKeyboardAvoiding: 0a40dfbb0af7c8bdae1dd457496dccfd217d85f6
@@ -148,6 +159,6 @@ SPEC CHECKSUMS:
   UMengAnalytics: 092c24aef47b6ac3c76ad51543f91156a8d7b645
   UMengSocial: 85882abe5b20aa38ad558ece71360e16b5d50909
 
-PODFILE CHECKSUM: 7af30a2943ca280a86601b26f278c87afea063df
+PODFILE CHECKSUM: cb79da2e1ce43c3765dd324013ae95a0de6f4af6
 
 COCOAPODS: 1.1.1

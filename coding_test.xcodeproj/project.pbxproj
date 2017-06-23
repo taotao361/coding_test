@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BC2B16EC1EFCC884000C7E06 /* YTMineUserCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BC2B16EB1EFCC884000C7E06 /* YTMineUserCell.m */; };
 		BC7CC0111EFBB9BA00BADD29 /* LaunchImage-320-480@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC7CC00D1EFBB9BA00BADD29 /* LaunchImage-320-480@2x.png */; };
 		BC7CC0121EFBB9BA00BADD29 /* LaunchImage-320-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC7CC00E1EFBB9BA00BADD29 /* LaunchImage-320-568h@2x.png */; };
 		BC7CC0131EFBB9BA00BADD29 /* LaunchImage-375-667h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC7CC00F1EFBB9BA00BADD29 /* LaunchImage-375-667h@2x.png */; };
@@ -16,6 +17,7 @@
 		BC7CC01E1EFBD49200BADD29 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC7CC01D1EFBD49200BADD29 /* main.m */; };
 		BC7CC0201EFBD49D00BADD29 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BC7CC01F1EFBD49D00BADD29 /* Info.plist */; };
 		BC7CC0231EFBD70F00BADD29 /* YTClientAPIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BC7CC0221EFBD70F00BADD29 /* YTClientAPIManager.m */; };
+		BC7CC07F1EFCB7F600BADD29 /* YTBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BC7CC07E1EFCB7F600BADD29 /* YTBaseModel.m */; };
 		BC9698AC1EFBB1C10062D5B6 /* YTBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC96989D1EFBB1C10062D5B6 /* YTBaseViewController.m */; };
 		BC9698AD1EFBB1C10062D5B6 /* YTMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC96989F1EFBB1C10062D5B6 /* YTMessageViewController.m */; };
 		BC9698AE1EFBB1C10062D5B6 /* YTMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC9698A11EFBB1C10062D5B6 /* YTMineViewController.m */; };
@@ -32,6 +34,8 @@
 /* Begin PBXFileReference section */
 		2D80D8412A7AC2F7189EFEA5 /* Pods-coding_test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-coding_test.release.xcconfig"; path = "Pods/Target Support Files/Pods-coding_test/Pods-coding_test.release.xcconfig"; sourceTree = "<group>"; };
 		961B59ECCA30FDB36B947D76 /* libPods-coding_test.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-coding_test.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC2B16EA1EFCC884000C7E06 /* YTMineUserCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTMineUserCell.h; sourceTree = "<group>"; };
+		BC2B16EB1EFCC884000C7E06 /* YTMineUserCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTMineUserCell.m; sourceTree = "<group>"; };
 		BC7CC00D1EFBB9BA00BADD29 /* LaunchImage-320-480@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImage-320-480@2x.png"; sourceTree = "<group>"; };
 		BC7CC00E1EFBB9BA00BADD29 /* LaunchImage-320-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImage-320-568h@2x.png"; sourceTree = "<group>"; };
 		BC7CC00F1EFBB9BA00BADD29 /* LaunchImage-375-667h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImage-375-667h@2x.png"; sourceTree = "<group>"; };
@@ -45,6 +49,8 @@
 		BC7CC01F1EFBD49D00BADD29 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BC7CC0211EFBD70F00BADD29 /* YTClientAPIManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTClientAPIManager.h; sourceTree = "<group>"; };
 		BC7CC0221EFBD70F00BADD29 /* YTClientAPIManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTClientAPIManager.m; sourceTree = "<group>"; };
+		BC7CC07D1EFCB7F600BADD29 /* YTBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTBaseModel.h; sourceTree = "<group>"; };
+		BC7CC07E1EFCB7F600BADD29 /* YTBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTBaseModel.m; sourceTree = "<group>"; };
 		BC96989C1EFBB1C10062D5B6 /* YTBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTBaseViewController.h; sourceTree = "<group>"; };
 		BC96989D1EFBB1C10062D5B6 /* YTBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTBaseViewController.m; sourceTree = "<group>"; };
 		BC96989E1EFBB1C10062D5B6 /* YTMessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTMessageViewController.h; sourceTree = "<group>"; };
@@ -81,6 +87,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BC2B16E41EFCC1A9000C7E06 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				BC2B16EA1EFCC884000C7E06 /* YTMineUserCell.h */,
+				BC2B16EB1EFCC884000C7E06 /* YTMineUserCell.m */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
 		BC7CC0151EFBCC2000BADD29 /* service */ = {
 			isa = PBXGroup;
 			children = (
@@ -146,6 +161,8 @@
 		BC9698801EFBB09D0062D5B6 /* model */ = {
 			isa = PBXGroup;
 			children = (
+				BC7CC07D1EFCB7F600BADD29 /* YTBaseModel.h */,
+				BC7CC07E1EFCB7F600BADD29 /* YTBaseModel.m */,
 				BC7CC01A1EFBD1A600BADD29 /* YTUserModel.h */,
 				BC7CC01B1EFBD1A600BADD29 /* YTUserModel.m */,
 			);
@@ -155,6 +172,7 @@
 		BC9698821EFBB09D0062D5B6 /* view */ = {
 			isa = PBXGroup;
 			children = (
+				BC2B16E41EFCC1A9000C7E06 /* cell */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -364,6 +382,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC9698AE1EFBB1C10062D5B6 /* YTMineViewController.m in Sources */,
+				BC2B16EC1EFCC884000C7E06 /* YTMineUserCell.m in Sources */,
 				BC9698AD1EFBB1C10062D5B6 /* YTMessageViewController.m in Sources */,
 				BC9698AF1EFBB1C10062D5B6 /* YTProjectViewController.m in Sources */,
 				BC7CC0231EFBD70F00BADD29 /* YTClientAPIManager.m in Sources */,
@@ -374,6 +393,7 @@
 				BC9698B21EFBB1C10062D5B6 /* YTTaskViewController.m in Sources */,
 				BC7CC01C1EFBD1A600BADD29 /* YTUserModel.m in Sources */,
 				BC7CC0191EFBCD5D00BADD29 /* YTClientAPIService.m in Sources */,
+				BC7CC07F1EFCB7F600BADD29 /* YTBaseModel.m in Sources */,
 				BC7CC01E1EFBD49200BADD29 /* main.m in Sources */,
 				BC9698B01EFBB1C10062D5B6 /* YTRootNavController.m in Sources */,
 			);
@@ -480,6 +500,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = 92852ZS52N;
 				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = coding_test/coding_test.pch;
 				INFOPLIST_FILE = coding_test/config/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -495,6 +516,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = 92852ZS52N;
+				GCC_PREFIX_HEADER = coding_test/coding_test.pch;
 				INFOPLIST_FILE = coding_test/config/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

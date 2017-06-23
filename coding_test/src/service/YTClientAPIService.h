@@ -8,11 +8,14 @@
 
 #import <Foundation/Foundation.h>
 
+typedef void(^responsedBlock)(id responsedDatas,NSError *error);
+
 @interface YTClientAPIService : NSObject
 
 + (instancetype)shareInstance;
 
-
+// ------ userInfo
+- (void)requestWithParas:(NSDictionary *)paras responsedBlock:(responsedBlock)block;
 
 
 

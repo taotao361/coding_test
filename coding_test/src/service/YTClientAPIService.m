@@ -7,6 +7,14 @@
 //
 
 #import "YTClientAPIService.h"
+#import "YTClientAPIManager.h"
+#import "YTUserModel.h"
+//获取用户信息
+static NSString * const YTClientAPIUserInfo = @"api/user/key/taotaoyy/";
+
+
+
+
 
 @implementation YTClientAPIService
 
@@ -17,6 +25,12 @@
         service = [[YTClientAPIService alloc] init];
     });
     return service;
+}
+
+- (void)requestWithParas:(NSDictionary *)paras responsedBlock:(responsedBlock)block {
+    [[YTClientAPIManager shareInstance] requestWithRequestType:YTClientAPIManagerTypeGET relativePath:YTClientAPIUserInfo paras:paras responsedClass:[YTUserModel class] responsed:^(id datas, NSError *error) {
+        block(datas,error);
+    }];
 }
 
 

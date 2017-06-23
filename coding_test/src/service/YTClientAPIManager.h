@@ -9,9 +9,22 @@
 #import <Foundation/Foundation.h>
 #import <AFNetworking.h>
 
+typedef NS_ENUM(NSInteger,YTClientAPIManagerType) {
+    YTClientAPIManagerTypeGET,
+    YTClientAPIManagerTypePOST
+};
+
+typedef void(^responsedBlock)(id datas,NSError *error);
+
 @interface YTClientAPIManager : AFHTTPSessionManager
 
 + (instancetype)shareInstance;
+
+- (void)requestWithRequestType:(YTClientAPIManagerType)type
+                  relativePath:(NSString *)relativePath
+                         paras:(NSDictionary *)paras
+                responsedClass:(Class)responsedClass
+                     responsed:(responsedBlock)responsedBlock;
 
 
 @end
